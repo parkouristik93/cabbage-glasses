@@ -1,0 +1,164 @@
+{
+    "model": {
+        "type": "select",
+        "property": "custom_model_data",
+        "fallback": {
+            "type": "model",
+            "model": "minecraft:item/potion",
+            "tints": [
+                {
+                    "type": "minecraft:potion",
+                    "default": -13083194
+                }
+            ]
+        },
+        "cases": [
+            {
+                "when": [
+					"cabbage_substances:absinthe",
+                    "cabbage_substances:gin",
+					"cabbage_substances:m_vodka",
+                    "cabbage_substances:moonshine",
+                    "cabbage_substances:tequila",
+                    "cabbage_substances:fire_whiskey",
+                    "cabbage_substances:sake"
+                ],
+                "model": {
+                    "type": "model",
+                    "model": "cabbage_substances:item/shot",
+                    "tints": [
+                        {
+                            "type": "minecraft:potion",
+                            "default": -13083194
+                        }
+                    ]
+                }
+            },
+            {
+                "when": [
+                    "cabbage_substances:bamboo_beer",
+                    "cabbage_substances:kvass"
+                ],
+                "model": {
+                    "type": "model",
+                    "model": "cabbage_substances:item/mug",
+                    "tints": [
+                        {
+                            "type": "minecraft:potion",
+                            "default": -13083194
+                        }
+                    ]
+                }
+            },
+			{
+                "when": [
+                    "cabbage_substances:blood_mary",
+                    "cabbage_substances:heaven",
+                    "cabbage_substances:margarita",
+                    "cabbage_substances:pina_colada"
+                ],
+                "model": {
+                    "type": "model",
+                    "model": "cabbage_substances:item/cocktail",
+                    "tints": [
+                        {
+                            "type": "minecraft:potion",
+                            "default": -13083194
+                        }
+                    ]
+                }
+            },
+            {
+                "when": [
+                    "cabbage_substances:candy_eggnog",
+                    "cabbage_substances:coffee",
+                    "cabbage_substances:eggnog",
+                    "cabbage_substances:hot_cocoa",
+                    "cabbage_substances:snow_drink"
+                ],
+                "model": {
+                    "type": "model",
+                    "model": "cabbage_substances:item/cup",
+                    "tints": [
+                        {
+                            "type": "minecraft:potion",
+                            "default": -13083194
+                        }
+                    ]
+                }
+            },
+			{
+                "when": [
+                    "cabbage_substances:gap_cider",
+                    "cabbage_substances:ice_wine",
+                    "cabbage_substances:rose_wine",
+                    "cabbage_substances:spider_cider",
+                    "cabbage_substances:white_wine"
+                ],
+                "model": {
+                    "type": "model",
+                    "model": "cabbage_substances:item/wine_glass",
+                    "tints": [
+                        {
+                            "type": "minecraft:potion",
+                            "default": -13083194
+                        }
+                    ]
+                }
+            },
+			{
+                "when": [
+                    "cabbage_substances:a_test",
+                    "cabbage_substances:cran_kompot",
+                    "cabbage_substances:glow_kompot",
+					"cabbage_substances:cherry_kompot",
+					"cabbage_substances:apple_kompot"
+                ],
+                "model": {
+                    "type": "model",
+                    "model": "cabbage_substances:item/jar",
+                    "tints": [
+                        {
+                            "type": "minecraft:potion",
+                            "default": -13083194
+                        }
+                    ]
+                }
+            },
+            {
+                "when": [
+                    "cabbage_substances:borsch",
+                    "cabbage_substances:chicken_soup",
+                    "cabbage_substances:fish_soup",
+                    "cabbage_substances:tom_yum"
+                ],
+                "model": {
+                    "type": "model",
+                    "model": "cabbage_substances:item/soup",
+                    "tints": [
+                        {
+                            "type": "minecraft:potion",
+                            "default": -13083194
+                        }
+                    ]
+                }
+            },
+            {
+                "when": [
+                    "cabbage_substances:red_bull",
+                    "cabbage_substances:melon_smth"
+                ],
+                "model": {
+                    "type": "model",
+                    "model": "cabbage_substances:item/tall_glass",
+                    "tints": [
+                        {
+                            "type": "minecraft:potion",
+                            "default": -13083194
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}
