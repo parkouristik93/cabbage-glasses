@@ -15,6 +15,10 @@
         "cases": [
             {
                 "when": [
+                    "brewery:apple_liquor",
+                    "brewery:rum",
+                    "brewery:vodka",
+                    "brewery:whiskey",
 					"cabbage_substances:absinthe",
                     "cabbage_substances:gin",
 					"cabbage_substances:m_vodka",
@@ -36,6 +40,9 @@
             },
             {
                 "when": [
+                    "brewery:beer",
+                    "brewery:dark_beer",
+                    "brewery:wheat_beer",
                     "cabbage_substances:bamboo_beer",
                     "cabbage_substances:kvass"
                 ],
@@ -70,6 +77,10 @@
             },
             {
                 "when": [
+                    "brewery:cherry_tea",
+                    "brewery:green_tea",
+                    "brewery:tea",
+					"brewery:chorus_brew",
                     "cabbage_substances:candy_eggnog",
                     "cabbage_substances:coffee",
                     "cabbage_substances:eggnog",
@@ -89,6 +100,11 @@
             },
 			{
                 "when": [
+                    "brewery:apple_mead",
+                    "brewery:glow_wine",
+                    "brewery:mead",
+					"brewery:wine",
+					"brewery:cider",
                     "cabbage_substances:gap_cider",
                     "cabbage_substances:ice_wine",
                     "cabbage_substances:rose_wine",
@@ -127,26 +143,8 @@
             },
             {
                 "when": [
-                    "cabbage_substances:borsch",
-                    "cabbage_substances:chicken_soup",
-                    "cabbage_substances:fish_soup",
-                    "cabbage_substances:tom_yum"
-                ],
-                "model": {
-                    "type": "model",
-                    "model": "cabbage_substances:item/soup",
-                    "tints": [
-                        {
-                            "type": "minecraft:potion",
-                            "default": -13083194
-                        }
-                    ]
-                }
-            },
-            {
-                "when": [
-                    "cabbage_substances:red_bull",
-                    "cabbage_substances:melon_smth"
+                "cabbage_substances:red_bull",
+                "cabbage_substances:melon_smth"
                 ],
                 "model": {
                     "type": "model",
