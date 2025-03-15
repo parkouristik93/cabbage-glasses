@@ -1,0 +1,14 @@
+{
+	"parent": "item/generated",
+	"textures": {
+	  "layer0": "minecraft:item/mushroom_stew"
+	},
+	"overrides": [
+	  {
+		"predicate": {
+		  "custom_model_data": 699301
+		},
+		"model": "cabbage_substances:item/borsch"
+	  }
+	]
+  }

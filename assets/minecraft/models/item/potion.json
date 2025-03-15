@@ -1,0 +1,45 @@
+{
+	"parent": "item/generated",
+	"textures": {
+	  "layer0": "minecraft:item/potion_overlay",
+	  "layer1": "minecraft:item/potion"
+	},
+	"overrides": [
+	  {
+		"predicate": {
+		  "custom_model_data": 699301
+		},
+		"model": "cabbage_substances:item/shot"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 699302
+		},
+		"model": "cabbage_substances:item/mug"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 699303
+		},
+		"model": "cabbage_substances:item/cocktail"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 699304
+		},
+		"model": "cabbage_substances:item/cup"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 699305
+		},
+		"model": "cabbage_substances:item/wine_glass"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 699306
+		},
+		"model": "cabbage_substances:item/jar"
+	  }
+	]
+  }
